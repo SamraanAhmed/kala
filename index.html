@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <title>Happy Birthday!!! :)</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <!-- My Style -->
+  <link rel="stylesheet" href="./style/main.css" />
+  
+  <script>
+    // Prevent right-click, text selection, and drag operations
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onselectstart = function() { return false; };
+    document.ondragstart = function() { return false; };
+    
+    // Additional protection for audio element
+    document.addEventListener('DOMContentLoaded', function() {
+      const audio = document.querySelector('.song');
+      if (audio) {
+        // Hide the audio element completely
+        audio.style.display = 'none';
+        
+        // Add event listeners to prevent downloading
+        audio.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          return false;
+        });
+        
+        // Prevent keyboard shortcuts for downloading
+        document.addEventListener('keydown', function(e) {
+          // Prevent Ctrl+S, Ctrl+U, Ctrl+Shift+I, F12
+          if (e.ctrlKey && (e.key === 's' || e.key === 'u') || 
+              (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+              e.key === 'F12') {
+            e.preventDefault();
+            return false;
+          }
+        });
+      }
+    });
+  </script>
+</head>
+
+<body style="background-color: rgb(253, 206, 214);" >
+
+    <audio class="song" loop autoplay controlsList="nodownload" oncontextmenu="return false;">
+        <source src="./music/Happy Birthday To You Ji.mp3" type="audio/wav">
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <div class="container">
+        <div class="one">
+            <h1 class="one">
+                Kya Haal hen
+                <span id="name">RADHA G</span>
+            </h1>
+            <p class="two" id="greetingText">Ive been waiting for this day just to surprise you!</p>
+            <p class="two" id="greetingText">May today be as wonderful as you are.</p>
+        </div>
+
+        <div class="three">
+            <p>It's your birthday!! :D</p>
+        </div>
+
+        <div class="four">
+            <div class="text-box">
+                <p class="hbd-chatbox">
+                Happy birthday to the girl who turned my distance into meaning. Seventeen years ago, the universe decided it was time to send a miracle to Earth — and somehow, that miracle found me. You are not just growing older, you’re growing more beautiful in every way that matters — in your heart, your soul, your light. You taught me that love isn’t something we find; it’s something that finds us when we finally stop running from ourselves. You are the calm in my chaos, the warmth in my cold, the reason I wake up and try to be a better man. If every heartbeat could speak, it would whisper your name. So here’s to you — to your smile, your dreams, your light — and to every tomorrow I hope to spend loving you even more deeply than I do today.
+                </p>
+                <p class="fake-btn">Send</p>
+            </div>
+        </div>
+
+        <div class="five">
+            <p class="idea-1">This was going to be a simple birthday message.</p>
+            <p class="idea-2">But then I started Overthing.</p>
+            <p class="idea-3">
+                I realised, I wanted to do something<br>
+                <strong>Unique</strong>
+                .
+            </p>
+            <p class="idea-4">Because,</p>
+            <p class="idea-5">
+                You are Special to me 
+                <span>:)</span>
+            </p>
+            <p class="idea-6">
+                <span>S</span>
+                <span>O</span>
+                <span>O</span>
+            </p>
+        </div>
+
+        <div class="six">
+            <img src="./img/IMG.jpg" alt="profile" class="profile-picture" id="imagePath"/>
+            <img src="img/hat.svg" style="margin-top:50px;" alt="hat" class="hat" />
+            <div class="wish">
+                <h3 class="wish-hbd">Happy Birthday!</h3>
+                <h5 id="wishText">My love❤️!!!  </h5>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="baloons">
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="eight">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+        </div>
+
+        <div class="nine">
+            <p> I hope you like it...</p>
+            <p id="replay">Click here, if you want to watch it again.</p>
+            <p class="last-smile">:)</p>
+        </div>
+    </div>
+
+</body>
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="application/javascript" src="./script/main.js"></script>
+
+</html>
